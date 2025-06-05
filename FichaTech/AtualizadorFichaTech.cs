@@ -8,8 +8,8 @@ using System.Reflection;
 public class AtualizadorFichaTech
 {
     public string versaoAtual = Assembly.GetExecutingAssembly().GetName().Version.Major.ToString() + "." + Assembly.GetExecutingAssembly().GetName().Version.Minor.ToString() + "." + Assembly.GetExecutingAssembly().GetName().Version.Build.ToString(); //"1.0.0"; // sua versão atual do sistema
-    string urlVersao = " ";
-    string urlZip = " ";
+    string urlVersao = "https://raw.githubusercontent.com/hiltonjssantos/FichaTech/refs/heads/master/versao.txt";
+    string urlZip = "https://github.com/hiltonjssantos/FichaTech/releases/download/v1.0.0/FichaTech.zip";
 
     string pastaTemporaria;
     string zipPath;
